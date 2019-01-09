@@ -1,0 +1,114 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+/* Color Scheme =================
+/*Pueblo (red) #763626
+Astral (blue) #336b87
+Outerspace (gray) #2a3132
+================================*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  background-color: #2a3132;
+  color: white;
+}
+
+header {
+  background-color: #763626;
+  /* font-family: 'Merriweather', sans-serif; */
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+legend {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0 0 1em 0;
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  background-color: #336b87;
+  padding: .75em;
+}
+
+input:hover {
+  border: solid white 5px;
+}
+
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Layout Containers ---- */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  text-align: center;
+  padding: 1.5em 1.5em;
+}
+
+/* ---- Page Elements ---- */
+
+.intro-header {
+  text-transform: capitalize;
+}
+
+/* CONTACT INFO ------------------------ */
+.contact-info {
+  border-style: none;
+  display: flex;
+}
+.contact-info label {
+  padding: 0 0 .5em 0;
+}
+.contact-info input,
+select {
+  margin: 0 0 1.75em 0;
+  width: 90%;
+}
+
+/* NEWSLETTER INFO ------------------------ */
+.newsletter-info {
+  border-style: none;
+  line-height: 1.5em;
+}
+
+.topic-section label:first-child {
+  display: block;
+  padding: 0 0 .5em 0;
+}
+
+.topic-section label,
+.format-section label {
+  padding: 0 0 0 1em;
+}
+
+.format-section label:first-child,
+.more-section label {
+  display: block;
+  padding: 2em 0 .5em 0;
+}
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: ) {
+
+}
