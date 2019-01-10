@@ -18,31 +18,71 @@ body {
   color: white;
 }
 
+h2 {
+  font-size: 1em;
+}
+
 header {
   background-color: #763626;
   /* font-family: 'Merriweather', sans-serif; */
   text-transform: uppercase;
   color: white;
   text-align: center;
+  font-size: .6em;
   padding: 1em 0;
+}
+
+footer {
+  text-align: center;
+  font-size: .75em;
+  font-style: italic;
 }
 
 legend {
   text-transform: capitalize;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
   padding: 0 0 1em 0;
 }
 
-input {
+label {
+  font-size: .8em;
+}
+
+input,
+select,
+textarea {
   border-style: none;
   border-radius: 5px;
   background-color: #336b87;
+  color: white;
   padding: .75em;
+  font-size: .8em;
 }
 
-input:hover {
+textarea {
+  width: 100%;
+  height: 7.5em;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
   border: solid white 5px;
+  border-radius: 7px;
+}
+
+input::placeholder {
+  color: white;
+  font-size: .6em;
+  font-style: italic;
+  text-align: right;
+}
+
+form {
+  margin: 0.25em 0px 0 0;
+  padding: 1.75em 0 0 0;
+  border-top: solid white 1px;
 }
 
 
@@ -53,33 +93,45 @@ input:hover {
 /* ---- Layout Containers ---- */
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  /* border: solid red 5px; */
+  width: 95%;
+  margin: 0 auto;
 }
 
 .intro {
   text-align: center;
-  padding: 1.5em 1.5em;
+  border-bottom: solid white 4px;
 }
 
 /* ---- Page Elements ---- */
 
-.intro-header {
-  text-transform: capitalize;
+.intro-para {
+  font-size: .75em;
+  color: #f9f1f1;
+  padding: 0 0 1em 0;
 }
+
 
 /* CONTACT INFO ------------------------ */
 .contact-info {
   border-style: none;
-  display: flex;
+  display: block;
 }
+
 .contact-info label {
   padding: 0 0 .5em 0;
 }
+
 .contact-info input,
 select {
-  margin: 0 0 1.75em 0;
-  width: 90%;
+  margin: .5em 0 1.75em 0;
+  width: 100%;
+  display: block;
+}
+
+#zip-code {
+  display: block;
+  width: 50%;
 }
 
 /* NEWSLETTER INFO ------------------------ */
@@ -91,6 +143,7 @@ select {
 .topic-section label:first-child {
   display: block;
   padding: 0 0 .5em 0;
+  width: 90%;
 }
 
 .topic-section label,
@@ -104,11 +157,47 @@ select {
   padding: 2em 0 .5em 0;
 }
 
+button {
+  width: 100%;
+  /* margin: 0 0 0 15px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: #763626;
+  box-shadow: 5px 5px black;
+  color: white;
+  padding: 1em;
+  font-size: 1em; */
+}
+
+.border {
+  border-top: solid white 1px;
+  padding: 0 0 1.75em 0;
+}
+
+.zip-code input {
+  width: 50%;
+}
 
 /* =================================
   Media Queries
 ==================================== */
 
-@media (min-width: ) {
+@media (min-width: 768px) {
+
+  #flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact-info label {
+    width: 30%;
+  }
+
+  .contact-info input,
+  select {
+    /* margin: .5em 0 1.75em 0; */
+    width: 70%;
+
+
 
 }
