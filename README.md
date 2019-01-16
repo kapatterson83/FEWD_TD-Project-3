@@ -2,9 +2,9 @@
 
 I am attempting to meet the "Exceeds Expectations" requirements for this project.  If my project doesn't meet the "Exceeds Expectations" requirements, please reject it as "needing additional work."
 
--  Project files placed in GitHub repository.
+- Project files placed in GitHub repository.
 
--  Project includes index.html:
+- Project includes index.html:
   -  The HTML file includes the viewport meta tag in the head of the document.
   -  A Google Font is being used.
   -  Only one <form> tag is being used to contain all the form elements.
@@ -16,7 +16,7 @@ I am attempting to meet the "Exceeds Expectations" requirements for this project
   -  Form contains additional placeholder text for other text fields.
   -  Uses the required attribute to add HTML5 Validation for required fields.
 
--  Project contains a stylesheet (styles.css) inside of a CSS folder.
+- Project contains a stylesheet (styles.css) inside of a CSS folder.
   -  A mobile-first approach is utilized using min-width properties for media queries (tablet and desktop screens at 768px.).
   -  General spacing and arrangement of the elements matches the design of the mockups for Mobile and Desktop.
   -  The label text position matches the mockups (above the form field for mobile, to the left side of the form field for desktop).
