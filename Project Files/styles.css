@@ -24,7 +24,7 @@ h2 {
 
 header {
   background-color: #763626;
-  /* font-family: 'Merriweather', sans-serif; */
+  font-family: 'Merriweather', sans-serif;
   text-transform: uppercase;
   color: white;
   text-align: center;
@@ -108,7 +108,6 @@ form {
 /* ---- Layout Containers ---- */
 
 .wrapper {
-  /* border: solid red 5px; */
   width: 85%;
   margin: 0 auto;
 }
@@ -225,13 +224,8 @@ button {
 
   .contact-info input,
   select {
-    /* margin: .5em 0 1.75em 0; */
     width: 70%;
     vertical-align: middle;
 }
-/*
-  button {
-    width: 95%;
-  } */
 
 }
